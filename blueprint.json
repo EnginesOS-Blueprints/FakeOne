@@ -1,7 +1,7 @@
   {
   "software": {
-    "name": "MediaWiki",
-    "description": "MediaWiki is a free software open source wiki package written in PHP, originally for use on Wikipedia. It is now also used by several other projects of the non-profit Wikimedia Foundation and by many other wikis, including this website, the home of MediaWiki.",
+    "name": "FakeOne",
+    "description": "This is the best fake software going. It does loads of fake stuff.",
     "updated_at": "2015-01-02T07:00:00.000Z",
     "version": null,
     "requiredmemory": 128,
@@ -124,13 +124,19 @@
         "build_time_only": true,
         "mandatory": null,
         "ask_at_build_time": null,
-        "password": true
+        "field_as": "password"
       },
       {
         "name": "color_pref",
         "label": "Favourite colour",
         "collection": ["Red","Green", "Blue"],
         "value": "blue",
+        "ask_at_build_time": true
+      },
+      {
+        "name": "song_pref",
+        "label": "Favourite song",
+        "collection": ["God save the Queen","Disco Forever (except parts IV to IX)", "Somewhere over the Rainbow", "Anything by Kylie"],
         "ask_at_build_time": true
       }
     ],
