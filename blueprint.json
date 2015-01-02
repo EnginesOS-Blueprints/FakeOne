@@ -105,6 +105,7 @@
         "comment": null,
         "build_time_only": false,
         "mandatory": null,
+        "collection": ["Red","Green", "Blue"],
         "ask_at_build_time": null
       },
       {
