@@ -101,68 +101,37 @@
     "environment_variables": [
       {
         "name": "user_entered_short_title",
-        "value": "short_title",
-        "comment": null,
+        "label": "Short title",
+        "value": "MyCoolWebApp",
+        "comment": "Give your app a name.",
         "build_time_only": false,
         "mandatory": null,
-        "collection": ["Red","Green", "Blue"],
-        "ask_at_build_time": null
+        "ask_at_build_time": true
       },
       {
         "name": "wiki_admin_email",
+        "label": "Admin email",
         "value": "",
-        "comment": "Please Enter in the Wiki Admins Email address",
-        "build_time_only": false,
+        "comment": "Enter an email address for the application administrator",
+        "build_time_only": true,
         "mandatory": null,
         "ask_at_build_time": null
       },
       {
         "name": "admin_pass",
-        "value": "pass",
-        "comment": "Initial Wiki Password",
-        "build_time_only": false,
+        "label": "Admin password",
+        "comment": "Enter a password for the application administrator",
+        "build_time_only": true,
         "mandatory": null,
-        "ask_at_build_time": null
+        "ask_at_build_time": null,
+        "password": true
       },
       {
-        "name": "user_entered_title",
-        "value": "pass",
-        "comment": "",
-        "build_time_only": false,
-        "mandatory": false,
-        "ask_at_build_time": false
-      },
-      {
-        "name": " wiki_admin_email",
-        "value": "",
-        "comment": "",
-        "build_time_only": false,
-        "mandatory": false,
-        "ask_at_build_time": false
-      },
-      {
-        "name": "test",
-        "value": "test",
-        "comment": "test",
-        "build_time_only": false,
-        "mandatory": true,
-        "ask_at_build_time": false
-      },
-      {
-        "name": "For  LD to test",
-        "value": "default",
-        "comment": "comment for LD test",
-        "build_time_only": false,
-        "mandatory": true,
-        "ask_at_build_time": false
-      },
-      {
-        "name": "Another Test",
-        "value": "another default for test",
-        "comment": "comment for antother test",
-        "build_time_only": false,
-        "mandatory": false,
-        "ask_at_build_time": false
+        "name": "color_pref",
+        "label": "Favourite colour",
+        "collection": ["Red","Green", "Blue"],
+        "value": "blue",
+        "ask_at_build_time": true
       }
     ],
     "worker_commands": [
