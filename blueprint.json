@@ -109,6 +109,15 @@
         "ask_at_build_time": true
       },
       {
+        "name": "user_entered_short_title2",
+        "label": "Short title2",
+        "value": "MyCoolWebApp",
+        "comment": "Give your app a name.",
+        "build_time_only": false,
+        "mandatory": null,
+        "ask_at_build_time": true
+      },
+      {
         "name": "start_folder",
         "label": "Start folder",
         "value": "home",
@@ -125,6 +134,15 @@
         "build_time_only": false,
         "mandatory": null,
         "ask_at_build_time": null
+      },
+      {
+        "name": "user_entered_short_title3",
+        "label": "Short title3",
+        "value": "MyCoolWebApp",
+        "comment": "Give your app a name.",
+        "build_time_only": false,
+        "mandatory": null,
+        "ask_at_build_time": true
       },
       {
         "name": "admin_pass",
