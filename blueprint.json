@@ -122,7 +122,7 @@
         "label": "Admin email",
         "value": "s@s.co",
         "comment": "Enter an email address for the application administrator",
-        "build_time_only": true,
+        "build_time_only": false,
         "mandatory": null,
         "ask_at_build_time": null
       },
