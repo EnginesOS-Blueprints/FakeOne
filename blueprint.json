@@ -109,6 +109,15 @@
         "ask_at_build_time": true
       },
       {
+        "name": "start_folder",
+        "label": "Start folder",
+        "value": "home",
+        "comment": "Select your start folder.",
+        "build_time_only": false,
+        "mandatory": null,
+        "ask_at_build_time": true
+      },
+      {
         "name": "wiki_admin_email",
         "label": "Admin email",
         "comment": "Enter an email address for the application administrator",
