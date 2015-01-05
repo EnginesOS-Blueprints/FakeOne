@@ -131,13 +131,15 @@
         "label": "Favourite colour",
         "collection": ["Red","Green", "Blue"],
         "value": "blue",
-        "ask_at_build_time": true
+        "ask_at_build_time": true,
+        "type": "select"
       },
       {
         "name": "song_pref",
-        "label": "Favourite song",
+        "label": "Favourite songs",
         "collection": ["God save the Queen","Disco Forever (except parts IV to IX)", "Somewhere over the Rainbow", "Anything by Kylie"],
         "ask_at_build_time": true
+        "type": "select-multi"
       }
     ],
     "worker_commands": [
