@@ -120,6 +120,7 @@
       {
         "name": "wiki_admin_email",
         "label": "Admin email",
+        "value": "s@s.co",
         "comment": "Enter an email address for the application administrator",
         "build_time_only": true,
         "mandatory": null,
@@ -128,6 +129,7 @@
       {
         "name": "admin_pass",
         "label": "Admin password",
+        "value": "qwerty123",
         "comment": "Enter a password for the application administrator",
         "build_time_only": true,
         "mandatory": null,
