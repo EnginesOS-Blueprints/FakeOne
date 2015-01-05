@@ -133,7 +133,10 @@
         "comment": "Enter a password for the application administrator",
         "build_time_only": true,
         "mandatory": null,
-        "ask_at_build_time": null,
+        "ask_at_build_time": null
+      },
+      {
+        "name": "admin_pass2",
         "type": "password-with-confirmation"
       },
       {
