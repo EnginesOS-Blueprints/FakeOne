@@ -161,7 +161,7 @@
         "name": "color_pref",
         "label": "Favourite colour",
         "collection": ["Red","Green", "Blue"],
-        "value": "blue",
+        "value": "Blue",
         "ask_at_build_time": true,
         "type": "select"
       },
