@@ -111,7 +111,6 @@
       {
         "name": "wiki_admin_email",
         "label": "Admin email",
-        "value": "",
         "comment": "Enter an email address for the application administrator",
         "build_time_only": true,
         "mandatory": null,
