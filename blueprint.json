@@ -155,7 +155,7 @@
       },
       {
         "name": "admin_pass2",
-        "type": "password-with-confirmation"
+        "type": "password_with_confirmation"
       },
       {
         "name": "color_pref",
@@ -170,7 +170,7 @@
         "label": "Favourite songs",
         "collection": ["God save the Queen","Disco Forever (except parts IV to IX)", "Somewhere over the Rainbow", "Anything by Kylie"],
         "ask_at_build_time": true,
-        "type": "select-multi"
+        "type": "select_multi"
       }
     ],
     "worker_commands": [
